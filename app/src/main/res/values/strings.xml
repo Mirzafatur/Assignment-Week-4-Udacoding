@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MahasiswaAppMirzaFaturrachman</string>
+    <string name="nama_mahasiswa">Nama Mahasiswa</string>
+    <string name="nohp_mahasiswa">Nohp Mahasiswa</string>
+    <string name="alamat_mahasiswa">Alamat Mahasiswa</string>
+    <string name="masukkan_nama">Masukkan nama</string>
+    <string name="masukkan_no_hp">Masukkan no hp</string>
+    <string name="masukkan_alamat">Masukkan alamat</string>
+    <string name="simpan">Simpan</string>
+    <string name="batal">Batal</string>
+</resources>

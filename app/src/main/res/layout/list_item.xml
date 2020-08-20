@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="16dp"
+    android:elevation="8dp"
+    android:background="#F5F6F8"
+    android:layout_marginBottom="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvNamaMahasiswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_mahasiswa"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvNohpMahasiswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nohp_mahasiswa"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/ic_phone"
+            android:drawablePadding="8dp"
+            android:layout_below="@id/tvNamaMahasiswa"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tvAlamatMahasiswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alamat_mahasiswa"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/ic_home"
+            android:drawablePadding="8dp"
+            android:layout_below="@id/tvNohpMahasiswa"
+            android:layout_marginTop="16dp"/>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tvAlamatMahasiswa"
+            android:background="#DEDEDE"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <ImageView
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_delete_24"
+            android:layout_below="@id/view"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
